@@ -1,0 +1,53 @@
+html {
+    height: 100vh;
+}
+body{
+    margin: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    display: grid;
+    justify-content: center;
+}
+.title {
+    color: #16697A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.entry-textbox {
+    background-color: #FFA62B;
+    width: 20em;
+    height: 10em;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border:unset;
+    border-radius: 25px;
+}
+
+.button{
+    border-radius: 25px;
+    padding: 5px 16px;
+    border: unset;
+    margin-left: 70%;
+    cursor: pointer;
+}
+.entry-textbox:focus{
+    outline: none;
+}
+#entries {
+    background:#16697A;
+    color: #EDE7E3;
+    border-radius: 25px;
+    padding: 2em;
+    border:unset;
+    max-width: 20em;
+    font-family: cursive;
+}
+.entries-nav {
+    padding-bottom: 1em;
+}
+.display-entry-button{
+    margin:0.2em
+}
+
+.display-entry-button:hover{
+    cursor: pointer;
+}

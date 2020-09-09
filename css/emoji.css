@@ -1,0 +1,53 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body{
+    padding: 10px;
+    background-image: linear-gradient(#5DA4D9, #FFF);
+}
+#emoji-container {
+    text-align: center;
+    font-size: 70px;
+    margin: 40px auto;
+}
+
+h1{
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+}
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto
+}
+input {
+    margin : 0 auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+}
+button
+{
+    background: darkcyan;
+    font-family: Baloo;
+    color: white;
+    border:none;
+    margin:0 auto;
+    letter-spacing: px;
+    padding: 4px 10px;
+}
+
+#push-btn,#unshift-btn {
+    background-color: #80D87F;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
